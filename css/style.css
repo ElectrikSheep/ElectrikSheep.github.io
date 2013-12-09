@@ -257,13 +257,14 @@ header {position:fixed;top:0;left:0;width:100%;height:65px;background:#161616;co
 
 	/* The top of the page. Positioning for some of the elements is done below via media query. */
 .home {float:left;width:100%;background:#fff ;}
-	.hometext {float:left;width:100%;margin:140px 0 0 0;text-transform:uppercase;}
-	.headlinetop {float:left;width:42%;height:100%;margin:1px 0 0 0;color:#161616;font-family:'EdmondsansBoldBold';text-align:right;}
+	.hometext {float:left;width:100%;margin:140px 0 0 0;text-transform:uppercase; }
+	.headlinetop {float:left;width:42%;height:100%;margin:1px 0 0 0;font-family:'EdmondsansBoldBold';text-align:right;}
 	.headlinevr {float:left;width:2px;height:400px;margin:10px 2% 0;background:#000;}
 	.headlineitems {float:left;width:52%;height:100%;font-size:32px;font-family: 'QuicksandBook';}
-	.headlineitems a {color:#fff;}
+	.headlineitems a {color:#38505A;}
 	.headline {float:left;clear:left;}
 	.headline:hover {color:#ff2283;}
+	
 	.headline:nth-child(3) {color:#161616;} /* Makes the third child elements ("Experiences") black instead of white */
 	.headline:nth-child(3):hover {color:#ff2283;}
 
@@ -294,14 +295,14 @@ header {position:fixed;top:0;left:0;width:100%;height:65px;background:#161616;co
 	/* The parent for the about section */
 .about {float:left;width:100%;margin:0;padding-top:120px;background:#fff;}
 	.abouttext {float:left;width:100%;padding:0 5%;line-height: 1.8;}		/* First, top/left section for the text. Different size defined for wide screens */
-		.about .quicksand {font-family:'QuicksandBook';color:#50B4F2;margin:0;}
+		.about .quicksand {font-family:'QuicksandBook';color:#fff;margin:0;}
 		.about .quicksand span {position:relative;display:block;line-height:1;text-align:center;z-index:2;}
 		.about .quicksand span:nth-child(2) {color:#DADADA;font-size:120px;margin:-35px 0;z-index:1;}
 	.aboutgraphwrap {float:left;position:relative;width:100%;}				/* Second, bottom/right section for the skills graph. Different size defined for wide screens */
 		.portrait {position:absolute;top:-300px;right:-90px;display:none;z-index:1;}	/* Visual nicety displayed only in larger browsers. A picture of me! */
 	.aboutgraph {float:left;position:relative;width:100%;padding:0 3% 3% 4%;margin:25px 0 40px 0;background:#161616;font-weight:bold;z-index:2;}
 		.aboutgraph h2 {color:#fff;float:left;}
-		.aboutgraph .awesome {float:left;font-size:18px;margin:44px 0 0 12%;color:#333;font-style:normal;}
+		.aboutgraph .awesome {float:left;font-size:18px;margin:44px 0 0 12%;color:#fff;font-style:normal;}
 			/* The graph functions as so:
 						Each div related to an item--e.g. CSS(3)
 						Each label is, as you would suspect, the label for the graph
@@ -312,21 +313,17 @@ header {position:fixed;top:0;left:0;width:100%;height:65px;background:#161616;co
 		.graphlabel {float:left;width:30%;margin-right:2%;text-align:right;}
 		.graphitem {height:25px;margin:5px 0;border:3px solid #fff;opacity:1;}
 		.graphitem:hover {opacity:0.6;}		/* Just gives each bar graph a little interaction on hover */
-		.cssgraph {color:#ff2283;}
-			.cssgraph .graphitem {float:left;width:68%;background:#ff2283;}
-		.htmlgraph {color:#50B4F2;}
-			.htmlgraph .graphitem {float:left;width:60%;background:#50B4F2;}
-		.jsgraph {color:#24D42E;}
-			.jsgraph .graphitem {float:left;width:10%;background:#24D42E;}
-			.jsgraph i {font-size:14px;margin-left:10px;color:#555;}
-		.rdgraph {color:#F97206;}
-			.rdgraph .graphitem {float:left;width:64%;height:35px;margin:8px 0 0 0;background:#F97206;}
-		.aigraph {color:#FFC200;}
-			.aigraph .graphitem {float:left;width:58%;background:#FFC200;}
-		.psgraph {color:#006DAA;}
-			.psgraph .graphitem {float:left;width:50%;background:#006DAA;}
-		.idgraph {color:#930393;}
-			.idgraph .graphitem {float:left;width:42%;background:#930393;}
+		.unityGraph {color:#1B4175;}
+			.unityGraph .graphitem {float:left;width:68%;background:#1B4175;}
+		.xCodeGraph {color:#00686E;}
+			.xCodeGraph .graphitem {float:left;width:60%;background:#00686E;}
+		.cGraph {color:#C9B291;}
+			.cGraph .graphitem {float:left;width:55%;background:#C9B291;}
+			.cGraph i {font-size:14px;margin-left:10px;color:#555;}
+		.javaGraph {color:#F09F30;}
+			.javaGraph .graphitem {float:left;width:51%; background:#F09F30;}
+		.gitGraph {color:#8C0C24;}
+			.gitGraph .graphitem {float:left;width:61%;background:#8C0C24;}
 	
 
 .contact {float:left;position:relative;width:100%;margin:0;padding-top:120px;background:#8FCDE6;}	/* Linked to the various ways of contacting me. I decided against a contact form so that people could just use
