@@ -68,7 +68,7 @@ audio:not([controls]) { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 html, button, input, select, textarea { 
-		font-family: 'Poiret One', cursive; /* I decided to use a google webfont in this project to better match
+		font-family: 'Poiret One'; /* I decided to use a google webfont in this project to better match
 											     the fonts I have chosen for headlines. Many of the google webfonts
 												 display less than perfectly on the web, but some are decent. Take a
 												 look for yourself, but be sure to test! */
@@ -310,7 +310,7 @@ header {position:fixed;top:0;left:0;width:100%;height:65px;background:#161616;co
 						Similar to the portfoliokey, the spans could have been targeted using nth-child
 			*/
 		.aboutgraph div {width:100%;float:left;margin:5px 0;}
-		.graphlabel {float:left;width:30%;margin-right:2%;text-align:right;}
+		.graphlabel {float:left;width:30%;margin-right:2%;text-align:right;font-family: 'Montserrat Subrayada', sans-serif;}
 		.graphitem {height:25px;margin:5px 0;border:3px solid #fff;opacity:1;}
 		.graphitem:hover {opacity:0.6;}		/* Just gives each bar graph a little interaction on hover */
 		.unityGraph {color:#1B4175;}
