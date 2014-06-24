@@ -1,375 +1,557 @@
-
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<!--	_   _      _ _       
-       | | | |    | | |      
-       | |_| | ___| | | ___  
-       |  _  |/ _ \ | |/ _ \ 
-       | | | |  __/ | | (_) |
-       \_| |_/\___|_|_|\___/     Welcome to the source!
 
-		I have left the code for this project untouched so that it is more readable for anyone that cares to look through it.
-        Perusing code to see how things work is one of the best ways to learn, so feel free to poke through what I have done
-        and take something if it will help you in one of your projects. The CSS is where the magic happens, so take a look.
-        Feel free to send me an email with any questions or if you borrowed something you liked--as below simply at 
-        hello@robsawyer.me
--->
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Lionel | Unity Developer</title>   
 
-  <title>Lionel - Unity and Mobile developer</title>
+<meta name="description" content="Insert Your Site Description" /> 
 
-  <meta name="description" content="Lionel Mille - Unity Developer">
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
 
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/style.css">
-  
-  <!--<meta name="google-site-verification" content="NDVBJdkHeDqkU1BHX1WkK0eSa4E9DTHBlBeUrIw4LqA" /> -->
-  <link href='http://fonts.googleapis.com/css?family=Poiret+One'rel='stylesheet' type='text/css'>
-  <script src="js/libs/modernizr-2.5.3.min.js"></script>
-  
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-52229904-1', 'electriksheep.github.io');
+ga('send', 'pageview');
+
+</script>
+<!-- End Analytics -->
+
 </head>
+
+
 <body>
-  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>really old!</em> Your time on the web would be <a href="http://www.smashingmagazine.com/2012/07/10/dear-web-user-please-upgrade-your-browser/">much happier</a> with a new browser. <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a>.</p><![endif]-->
-  <header>
-  	<div class="wrapper">
-        <a href="Additional/Oculus/GALLERY/gallery.html" class="headerlogo">
-            <img src="images/random/logo_head.png" alt="Lionel Mille" />
-        </a>
-	    <p>
-	  	  An informal Introduction
-	    </p>
-    </div><!--end of wrapper-->
-  </header>
-  <div class="main">
-        <section id="home" class="home">
-        	<div class="hometext">
-            	<span class="headlinetop">Lionel </span>
-                <div class="headlinevr"></div>
-                <div class="headlineitems">
-					<a href=#about>
-                    	<span class="headline">about</span>
-					</a>
-                	<a href="#portfolio">
-                    	<span class="headline">portfolio</span>
-					</a>
-                	<a href="#portfolioGame">
-                    	<span class="headline">games</span>
-					</a>
-					
-                    <span class="headline">Unity</span>
-					
-	                <a href="#contact">
-                    <span class="headline">Contact</span>
-                    </a>
-                </div><!--end headlineitems-->
-            </div><!--end hometext-->
-</section><!--end #home-->
 
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
 
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption">
+    		<div class="slide-content">Lionel</div>
+    	</div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
         
-        <section id="about" class="about">
-       	  <div class="wrapper">
-            	<h1>About</h1>
-            <article class="abouttext">
-                    <p>
-						I'll try to make this short and avoid boring you to death
-						<br>
-						Not so long ago I was a baby developer, doing a master in Computer Science with a cool specialty in Computer Vision. Basically reading research paper, re-writing the most basic OpenGl function, ... university stuff. The best part was the computer vision applied to medical imaging, that's when I learned the human body is a wonderful piece of work, and the smallest thing can fuck you up real good. LESS BACON, MORE VEGETABLES is what I am trying to say.
-						<br>
-						<br>
-						Then I graduated and the first thing I learned was : "You know nothing"
-						<br>
-						One company was foolish enough to give me a chance and hired me as a Unity developer. Knowing that I had no previous C# or unity experience it was kind of a risk. After a month of being quite useless, I took on good size project and quickly rose in the ranks to become a full fledged developer.
-						<br>
-						<p  style="text-align:center">
-                   		 <img src="images/web/logo_unity.png" alt="Logo Unity" align="middle" />
-						 <p>
-						Fast forward a year, leading on projects and stuff, basically the big boys club. I got the chances to go to Unite 2013 in Vancouver. And it was A-MA-ZING. So many gifted people, so much stuff to do with the engines. I realised I severely under-used it and spent more and more time trying stuff on my own.
-						<br>
-						<br>
-						Fast forward a bit more, the Augmented Reality bubble kinda burst and the projects I am working on start all looking the same to me with a different content. The most fun I had in the last month was when I worked on my own games, playing and trying new stuff.
-						<br>
-						<br>
-						And here I am now, trying to jump branches and leave the AR behind me to go and try my skills against Game Design. We'll see how THAT goes. By the way if you are an employer and reading this, I have the best coffee to code ratio, and I drink a lot of coffee. I also have a rather good alcohol to idea ratio but I keep that for after office hours.
-					</p>
-				</p>
-				
-				
-           	  </article><!--end of abouttext-->
-                <div class="aboutgraphwrap">
-                    <div class="aboutgraph">
-                        <h2>Skills</h2><i class="awesome">Awesomeness level</i>
-                        <div class="unityGraph">
-                            <span class="graphlabel">Unity3D / C#</span>
-                          <span class="graphitem" title="Homemade Apple Pie level awesome">
-                          </span>
-						  <p>
-							  Publishing plugins on Asset Store experience, Application on Mobile (iOS and Android), Native Plugins using iOS Obj-C features or Android Java features, Facebook Canvas integrated games, Oculus rift, Leap Motion, UIToolKit, NGUI. All the other things
-						  </p>
-						 
-                        </div><!--end of cssgraph-->
-						
-                        <div class="xCodeGraph">
-                            <span class="graphlabel">xCode / Obj-C</span>
-                          <span class="graphitem" title="HTML isn't quite as exciting as apple pie"></span>
-						  <p>
-							  Published iOS application, Face Detection, Bluetooth Low Energy and iBeacons. Acquired huge patience skills when dealing with Apple publishing guideline and submission
-						  </p>
-                        </div><!--end of htmlgraph-->
-                        <div class="cGraph">
-                            <span class="graphlabel">C / C++</span>
-                          <span class="graphitem" title="Not quite finished baking"></span>
-						  <p><br>From my University background, I now mostly use it when working with OpenCV</p>
-                        </div><!--end of jsgraph--> 
-						<div class="javaGraph">
-                            <span class="graphlabel">Java</span>
-                          <span class="graphitem" title="My most-used design program"></span>
-						  <p><br>Not my favourite langage but when working with Android this is a must.
-                        </div><!--end of aigraph-->
-                        <div class="gitGraph">
-                            <span class="graphlabel">Git</span>
-                          <span class="graphitem" title="How awesome is Dr. Who? Very."></span>
-						  <p><br>98% is clone, pull, branch, commit, pull, push, checkout, merge</p>
-                        </div><!--end of rdgraph-->
-                       
-                    
-                    </div><!--end of aboutgraph-->
-                </div><!--end of aboutgraphwrap-->
-            </div><!--end of wrapper-->
-        </section><!--end of #about-->
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
         
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Lionel">Lionel</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<!-- Removed for now
+				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+					-->
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
 
-
-
-
-        <section id="portfolioAR" class="portfolioAR">
-          <div class="wrapper">
-                <h1 id="portfolio">Portfolio - AR</h1>
-                <div class="designitemwrapAR">
-                	<a href="pages/starkarmoury.html">
-                    <div class="designitem">
-                        <img src="images/web/IM3-1024.png" alt="Stark Armoury" />
-                        <div class="overlay"><img src="images/web/IM3-1024.png" class="widelogo" /></div>
-                    </div><!--end of designitem-->
-                    </a>
-                </div><!--end of designitemwrap-->
-                
-                <div class="designitemwrapAR">
-                	<a href="pages/seed.html">
-                    <div class="designitem">
-                        <img src="images/web/seed-1024.png" alt="Seed" />
-                        <div class="overlay"><img src="images/web/seed-1024.png" class="widelogo" /></div>
-                    </div>
-                    </a>
-              </div><!--end of designitemwrap-->
-    
-                <div class="designitemwrapAR">
-                	<a href="pages/absolut.html">
-                    <div class="designitem">
-                        <img src="images/web/iconnew-1024.png" alt="Absolut Vodka AR" />
-                        <div class="overlay"><img src="images/web/iconnew-1024.png" class="widelogo" /></div>
-                    </div>
-                    </a>
-              </div><!--end of designitemwrap-->  
-                 
-                <div class="designitemwrapAR">
-                	<a href="pages/mazda.html">
-                    <div class="designitem">
-                        <img src="images/web/mazda-1024.png" alt="Mazda3" />
-                        <div class="overlay"><img src="images/web/mazda-1024.png" class="widelogo" /></div>
-                    </div>
-                    </a>
-              </div><!--end of designitemwrap-->
-                
-                <div class="designitemwrapAR">
-                	<a href="pages/magna.html">
-                    <div class="designitem">
-                        <img src="images/web/mc1024.png" alt="Magna Color" />
-                        <div class="overlay"><img src="images/web/mc1024.png" class="widelogo" /></div>
-                    </div>
-                    </a>
-              </div><!--end of designitemwrap--> 
-                
-                <div class="designitemwrapAR">
-                	<a href="pages/spiderman.html">
-                    <div class="designitem">
-                        <img src="images/web/webslingerdvd-1024.png" alt="Spider-Man Web-Slinger" />
-                        <div class="overlay"><img src="images/web/webslingerdvd-1024.png" class="widelogo" /></div>
-                    </div>
-                    </a>
-              </div><!--end of designitemwrap-->
-                
-              <div class="designitemwrapAR">
-              	<a href="pages/maxsteel.html">
-                  <div class="designitem">
-                      <img src="images/web/ms-1024.png" alt="Max Steel" />
-                      <div class="overlay"><img src="images/web/ms-1024.png" class="widelogo" /></div>
-                  </div>
-                  </a>
-            </div><!--end of designitemwrap-->
-           
-		    <div class="designitemwrapAR">
-            	<a href="pages/boostar.html">
-                <div class="designitem">
-                    <img src="images/web/boostar.png" alt="BoostAR" />
-                    <div class="overlay"><img src="images/web/boostar.png" class="widelogo" /></div>
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">My Work</h2>
+                    <h3 class="title-description">I had the chance to work on many Augmented reality project. Here are a few of them.</h3>
+                    <h4 class="title-description">Feel free to check some of my code on <a href="https://github.com/ElectrikSheep" target="_blank">Github</a>.</h4>
                 </div>
-                </a>
-          </div><!--end of designitemwrap-->
- 
-            </div><!--end of wrapper-->
-</section><!--end of #portfolio-->
-
-
-        <section id="portfolioGame" class="portfolioGame">
-          <div class="wrapper">
-                <h1 id="portfoliotop">Portfolio - Game</h1>
-                <div class="designitemwrapGame">
-                	<a href="Additional/WEBPLAYER_ZW/WEBPLAYER_ZW.html">
-                    <div class="designitemGame">
-                        <img src="images/game/potd-logo.png" alt="Stark Armoury" />
-                        <div class="overlayGame"><img src="images/game/potd-logo.png" class="widelogo" /></div>
-                    </div><!--end of designitem-->
-                    </a>
-                </div><!--end of designitemwrap-->
-                
-                <div class="designitemwrapGame">
-                	<a href="Additional/WEBPLAYER_SE/WEB_E.html">
-                    <div class="designitemGame">
-                        <img src="images/game/se-logo.png" alt="Seed" />
-                        <div class="overlayGame"><img src="images/game/se-logo.png" class="widelogo" /></div>
-                    </div>
-                    </a>
-              </div><!--end of designitemwrap-->
- 
-            </div><!--end of wrapper-->
-</section><!--end of #portfolio-->
-
-
+            </div>
+        </div>
+        <!-- End Title Page -->
         
-        <section id="contact" class="contact">
-        	<h1>Contact</h1>
-			<div class="wrapper">
-            	<div class="contactitem">
-                	<div class="imgwrap">
-                    	<img src="images/social/logo_mail.png" class="bottom" />
-                        <img src="images/social/logo_mail.png" class="top" />
-                    </div><!--end of imgwrap-->
-                    <a href="mailto:lionel.fils@gmail.com">
-                    <span>lionel.fils@gmail.com</span>
-                    </a>
-                </div><!--end of contactitem-->
-                
-                <div class="contactitem">
-                    <div class="imgwrap">
-                    	<img src="images/social/logo_linkedin.png" class="bottom" />
-                        <img src="images/social/logo_linkedin.png" class="top" />
-                    </div><!--end of imgwrap-->
-                	<a href="http://ca.linkedin.com/pub/lionel-mille/41/a2/b6a/en">
-                    <span>linkedin</span>
-                    </a>
-                </div><!--end of contactitem-->
-                
-                <div class="contactitem">
-                    <div class="imgwrap">
-                    	<img src="images/social/logo_skype.png" class="bottom" />
-                        <img src="images/social/logo_skype.png" class="top" />
-                    </div><!--end of imgwrap-->
-                	<a href="http://ca.linkedin.com/pub/lionel-mille/41/a2/b6a/en">
-                    <span>linkedin</span>
-                    </a>
-                </div><!--end of contactitem-->
-                
-            </div><!--end of wrapper-->
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Type of Work</li>
+                        <li><a href="#filter" data-option-value="*:not(.trailer)">All Projects</a></li>
+                        <li><a href="#filter" data-option-value=".ar" class="selected">Augmented Reality</a></li>
+                        <li><a href="#filter" data-option-value=".game">Game</a></li>
+                        <li><a href="#filter" data-option-value=".trailer">Trailer</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
             
-        </section><!--end of #contact-->
-        
-  </div><!--end of main-->
-  
-  <footer>
-  	<a href="#home" class="toplink">back to top</a>
-  	<span>take a look at the source, borrow some code</span>
-  </footer>
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							<!-- AUGMENTED REALITY 
+								*
+								*
+								*
+								*
+								* -->
+
+							
+							
+							<!-- IRONMAN -->
+                        	<li class="item-thumbs span3 ar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="ios" title="The Sea" href="https://itunes.apple.com/gb/app/stark-armoury-at-tesco/id627567872?mt=8">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/ios_ironman.jpeg" alt="link">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- WEBSLINGER -->
+                        	<li class="item-thumbs span3 ar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="ios" title="Clouds" href="https://itunes.apple.com/gb/app/stark-armoury-at-tesco/id627567872?mt=8">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span><div>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/ios_webSlinger.jpeg" alt="link">
+								
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 ar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="ios" title="The Dark" href="https://itunes.apple.com/us/app/virtual-mazda3/id695879761?mt=8">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/ios_Mazda3.jpeg" alt="link">
+                            </li>
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 ar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="ios" title="The Dark" href="https://play.google.com/store/apps/details?id=com.addispatch.maxsteel&hl=fr">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/ios_maxSteel.jpeg" alt="link">
+                            </li>
+
+							<!-- ABSOLUT -->
+                        	<li class="item-thumbs span3 ar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="ios" title="The Dark" href="https://itunes.apple.com/us/app/absolut-greyhound-world/id562027360?mt=8">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/ios_absolut.jpeg" alt="link">
+                            </li>
+
+
+							<!-- CAPTAIN -->
+                        	<li class="item-thumbs span3 ar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="ios" title="The Dark" href="https://itunes.apple.com/us/app/captain-america-experience/id810803153?mt=8">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/ios_captain.jpeg" alt="link">
+                            </li>
+							
+							
+							
+							
+							<!-- GAMES 
+								*
+								*
+								*
+								*
+								* -->
+
+							
+							
+							<!-- POTD -->
+							<li class="item-thumbs span3 game">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="game" title="Phone Of The Dead" href="http://electriksheep.github.io/Additional/WEBPLAYER_ZW/WEBPLAYER_ZW.html">
+	                                	<span class="overlay-img"></span>
+	                                    <span class="overlay-img-thumb font-icon-plus">PLAY</span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/work_POTD.jpeg" alt="link">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- SPACE WALK -->
+							<li class="item-thumbs span3 game">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="game" title="Space Walk" href="http://electriksheep.github.io/Additional/WEBPLAYER_SE/WEB_E.html">
+	                                	<span class="overlay-img"></span>
+	                                    <span class="overlay-img-thumb font-icon-plus">PLAY</span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/work_SpaceWalk.jpeg" alt="link">
+                            </li>
+                        	<!-- End Item Project -->
+
+							
+							<!-- TRAILERS 
+								*
+								*
+								*
+								*
+								* -->
+
+							
+							
+							<!-- IRONMAN -->
+                        	<li class="item-thumbs span3 trailer">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Stark Armoury at Tesco" href="https://www.youtube.com/watch?v=ZH8abplG8Aw">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/work_ironman.jpeg" alt="Video">
+                            </li>
+							
+							<!-- SPIDERMAN -->
+                        	<li class="item-thumbs span3 trailer">
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Spiderman Web-Slinger" href="https://www.youtube.com/watch?v=x8X5RjWCT3o">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/work_webslinger.jpeg" alt="Video">
+                            </li>
+							
+							<!-- Absolut GREYHOUND WORLD -->
+                        	<li class="item-thumbs span3 trailer">
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Absolut Greyhound World" href="https://www.youtube.com/watch?v=WGOcVsNtGig">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/work_Absolut.jpeg" alt="Video">
+                            </li>
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 trailer">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="https://www.youtube.com/watch?v=71syI1UL15U">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/work_Mazda3.jpeg" alt="Video">
+                            </li>
+                        	<!-- End Item Project -->
+							
+							
+							
+							
+							
+							
+                        	<!-- End Item Project -->
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About Me</h2>
+                <h3 class="title-description">A very brief introduction to me.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
     
-  <!-- JavaScript at the bottom for fast page loading -->
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">MY FACE</span>
+                </div>
+                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+            </div>
+            <h3 class="profile-name">Me, Myself and I</h3>
+            <p class="profile-description">To Complete</p>
+            	
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Unity Developer</span>
+                </div>
+                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+            </div>
+            <h3 class="profile-name">Unity Developer</h3>
+            <p class="profile-description">I have been working with the Unity game engine for 2 years now. Mostly on Augmented Reality projects for mobiles (iOS & Android). <br>
+            I regularly worked with the following plugins: Vuforia, NGUI, Prime31, GameAnalytics, Facebook SDK. I also fashioned a lot of my own in Obj-C and Java to access native feature on mobiles platforms.</p>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Fun Stuff</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+            </div>
+            <h3 class="profile-name">Hobbies</h3>
+            <p class="profile-description">To Complete</p>
+        </div>
+        <!-- End Profile -->
+        
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">I am currently looking for work. Feel free to hire me or stroke my ego.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contact Details</h3>
+                <ul>
+                    <li><a href="#">lionel.fils@gmail.com</a></li>
+                    <li>+44(0) 7913 359-377</li>
+					<li>
+						<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+						<div id="SkypeButton_Call_ElectrikSheep_1">
+						  <script type="text/javascript">
+						    Skype.ui({
+						      "name": "chat",
+						      "element": "SkypeButton_Call_ElectrikSheep_1",
+						      "participants": ["ElectrikSheep"],
+						      "imageColor": "white",
+						      "imageSize": 32
+						    });
+						  </script>
+						</div>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/ElectrikSheeep" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="https://plus.google.com/u/1/+LionelMille_ElectrikSheep" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="https://www.linkedin.com/profile/view?id=146525698&locale=en_US" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
 
 
-<!-- Javascript for the smooth scrolling function on the page. Will probably replace with a plugin of some sort, but I had this on hand. Have forgotten where I found it.-->
-      <script type="text/javascript">
-             $(function () {
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
 
-                 function filterPath(string) {
-                     return string
-			.replace(/^\//, '')
-			.replace(/(index|default).[a-zA-Z]{3,4}$/, '')
-			.replace(/\/$/, '');
-                 }
-
-                 var locationPath = filterPath(location.pathname);
-                 var scrollElem = scrollableElement('html', 'body');
-
-                 $('a[href*=#]').each(function () {
-
-                     var thisPath = filterPath(this.pathname) || locationPath;
-                     if (locationPath == thisPath
-				&& (location.hostname == this.hostname || !this.hostname)
-				&& this.hash.replace(/#/, '')) {
-
-                         var $target = $(this.hash), target = this.hash;
-                         if (target) {
-
-                             var targetOffset = $target.offset().top;
-                             $(this).click(function (event) {
-
-                                 event.preventDefault();
-
-                                 $(scrollElem).animate({ scrollTop: targetOffset }, 500, function () {
-
-                                     location.hash = target;
-
-                                 });
-                             });
-                         }
-                     }
-
-                 });
-
-                 function scrollableElement(els) {
-                     for (var i = 0, argLength = arguments.length; i < argLength; i++) {
-                         var el = arguments[i],
-				$scrollElement = $(el);
-                         if ($scrollElement.scrollTop() > 0) {
-                             return el;
-                         } else {
-                             $scrollElement.scrollTop(1);
-                             var isScrollable = $scrollElement.scrollTop() > 0;
-                             $scrollElement.scrollTop(0);
-                             if (isScrollable) {
-                                 return el;
-                             }
-                         }
-                     }
-                     return [];
-                 }
-
-             });
-    </script>
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet 
-  <script>
-    var _gaq=[['_setAccount','UA-11609457-5'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-	  -->
 </body>
 </html>
