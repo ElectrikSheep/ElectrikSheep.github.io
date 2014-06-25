@@ -156,8 +156,8 @@ ga('send', 'pageview');
                 <nav id="options" class="work-nav">
                     <ul id="filters" class="option-set" data-option-key="filter">
                     	<li class="type-work">Type of Work</li>
-                        <li><a href="#filter" data-option-value="*:not(.trailer)">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".ar" class="selected">Augmented Reality</a></li>
+                        <li><a href="#filter" data-option-value="*:not(.trailer)" class="selected">All Projects</a></li>
+                        <li><a href="#filter" data-option-value=".ar" >Augmented Reality</a></li>
                         <li><a href="#filter" data-option-value=".game">Game</a></li>
                         <li><a href="#filter" data-option-value=".trailer">Trailer</a></li>
                     </ul>
@@ -377,12 +377,16 @@ ga('send', 'pageview');
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">MY FACE</span>
+                    <span class="overlay-text-thumb">LE MY FACE</span>
                 </div>
                 <img src="include/img/profile/profile-01.jpg" alt="My Face">
             </div>
             <h3 class="profile-name">Me, Myself and I</h3>
-            <p class="profile-description">To Complete</p>
+            <p class="profile-description">
+            	Born and raised in France, which weirdly makes me a total jackass to anyone not french.<br>
+				For my defence, I did live in a few other countries to try to cure myself : Sweden, Canada, United Kingdom. What can I say, I like to travel and discover the country from an insider/spy point of view. <br>
+				I am pretty much like anybody else, 2 arms, 2 legs, one head. And like everybody else I enjoy to have a refreshing [Insert Favourite Beverage here] at the end of the week and blow off some steam.
+            </p>
             	
         </div>
         <!-- End Profile -->
@@ -398,7 +402,9 @@ ga('send', 'pageview');
             </div>
             <h3 class="profile-name">Unity Developer</h3>
             <p class="profile-description">I have been working with the Unity game engine for 2 years now. Mostly on Augmented Reality projects for mobiles (iOS & Android).<br>
-            I regularly worked with the following plugins: Vuforia, NGUI, Prime31, GameAnalytics, Facebook SDK. I also fashioned a lot of my own in Obj-C and Java to access native feature on mobiles platforms.</p>
+            I regularly worked with the following plugins: Vuforia, NGUI, Prime31, GameAnalytics, Facebook SDK. I also fashioned a lot of my own in Obj-C and Java to access native feature on mobiles platforms.<br>
+			I had the chance to attend <a TARGET ="_blank"href="http://unity3d.com/unite/archive/2013">Unite2013</a> and realized I have so much more to learn, so much more to do. SO LITTLE TIME.
+		</p>
             	
         </div>
         <!-- End Profile -->
@@ -408,17 +414,116 @@ ga('send', 'pageview');
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Fun Stuff</span>
+                    <span class="overlay-text-thumb">Brrm Brrm MOTHERHUGGER</span>
                 </div>
                 <img src="include/img/profile/profile-03.jpg" alt="Placeholder">
             </div>
             <h3 class="profile-name">Hobbies</h3>
-            <p class="profile-description">To Complete</p>
+            <p class="profile-description">
+				I do enjoy spending some time on a motorcycle, though buying/riding one during the Canadian winter was definitely not the smartest idea I ever had. I used to own a gorgeous <a TARGET ="_blank"href="https://twitter.com/ElectrikSheeep/status/318138958716469249">1998 900CBR RR</a>, sadly I had to sell it when I left Canada. Which broke my heart. <br>
+				Now I enjoy more conventional past times, such as reading (science fiction, heroic/medieval/historic fantasy) or replaying the Mass Effect trilogy one more time. <br>
+				Finally I have for goal to learn how to play the bass guitar by the end of the year. but it does not bode well for now.
+			</p>
         </div>
         <!-- End Profile -->
         
     </div>
     <!-- End People -->
+	
+
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h3 class="title-description"><br>Let's get close and Technical.</h3>
+            </div>
+        </div>
+    </div>
+	
+	<!-- Start Accordion -->
+    <div class="accordion-group">
+        <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
+				Game Experience
+            	<span class="font-icon-arrow-simple-down"></span>
+        </a>
+        </div>
+        <div id="twoArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+                Whenever I have the occasion I try to find some time in my busy dev schedule and just try to make some things :
+				
+				<ul>
+				<li><u><a href="http://electriksheep.github.io/Additional/WEBPLAYER_SE/WEB_E.html" target="_blank">Space Walk</a> :</u><br>First I was merely helping helping a friend to write some script. But then I took over the role of developer for his artistic vision.<br>
+				It is a game targeting mobile platforms, using the gyroscope to control the main character. The goal is to run as far as the user can, while avoiding foes.<br>
+				A version for Keyboard and mouse is available by clicking on the title or <a href="http://electriksheep.github.io/Additional/WEBPLAYER_SE/WEB_E.html" target="_blank">here</a>.
+				</li>
+				<li><u><a href="https://apps.facebook.com/phoneofthedead/" target="_blank">Phone Of The Dead</a> :</u><br>The company Digicave happened to have a few Zombies 3D models laying around and saw the opportunity to re-use part of the gyroscopic code I wrote for Space-Walk, while playing with the concept of re-usable objects, avoiding to Instantiate of Destroy anything in the code and just re-cycle everything (green).<br>
+					The Facebook version of the game is available <a href="https://apps.facebook.com/phoneofthedead/" target="_blank">here</a>. <br>
+					And slowly but surely I am fine tuning the iOS version so I can publish it.
+				</li>
+				</ul>
+				
+				
+            </div>
+        </div>
+    </div>
+	
+	<div class="accordion" id="accordionArea">
+	    <div class="accordion-group">
+	        <div class="accordion-heading accordionize">
+	            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+	                Unity Skills
+	                <span class="font-icon-arrow-simple-down"></span>
+	            </a>
+	        </div>
+	        <div id="oneArea" class="accordion-body collapse">
+	            <div class="accordion-inner">
+					For the past years I have mainly been playing with Unity for mobiles platform which gave me great knowledge in :
+					<ul>
+					<li>C#, Obj-C(iOS SDK), Java(Android SDK)</li>
+					<li>NGUI, Vuforia, uiToolkit, GameAnalytics, Flurry Metrics, Facebook SDK </li>
+					</ul>
+					I was lucky enough to be assigned to research and development and see what was do-able so I was lucky enough to play with :
+					<ul>
+					<li>Oculus Rift (own one)</li>
+					<li>Leap Motion</li>
+					<li>Kinect & Kinect 2</li>
+					<li>Awesome combo iBeacon+Raspberry Pie </li>
+					</ul>
+					Of course I am a team player so obviously used to Git and SVN. I was even in charge of a private GitLab server with one of my previous companies.
+	            </div>
+	        </div>
+	    </div>
+		
+	    <div class="accordion-group">
+	        <div class="accordion-heading accordionize">
+	            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
+	            Other Skills 
+	            <span class="font-icon-arrow-simple-down"></span>
+	        </a>
+	        </div>
+	        <div id="threeArea" class="accordion-body collapse">
+	            <div class="accordion-inner">
+	                From my masters in Computer Graphics (with a cool specialty in computer vision) I got :
+					<ul>
+					<li>Maths understanding of most Computer graphics/vision algorithms</li>
+					<li>C/C++ experiences (5 years, gotta pich a few things along the way)</li>
+					<li>I know what the Stanford bunny is</li>
+					</ul>
+					From my past job experiences :
+					<ul>
+					<li>Leadership skills, I lead and advised a team of programmer/3D artists/Designer to squeeze out the best of an App</li>
+					<li>AGILE development</li>
+					<li>Infinite patience for Commercials and their pitching ideas</li>
+					<li>Estimating how long a task is going to take me, give the worst case scenario estimation</li>
+					</ul>
+					
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<!-- End Accordion -->
+	
+	
 </div>
 </div>
 <!-- End About Section -->
@@ -439,8 +544,8 @@ ga('send', 'pageview');
     <!-- End Title Page -->
     
     <!-- Contact Form -->
-		<!-- 
     <div class="row">
+		<!-- 
     	<div class="span9">
         
         	<form id="contact-form" class="contact-form" action="#">
